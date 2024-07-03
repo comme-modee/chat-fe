@@ -16,7 +16,7 @@ const Chat = () => {
   const [ message, setMessage ] = useState('');
   const [ messages, setMessages ] = useState([]);
   const messagesEndRef = useRef(null);
-  const ENDPOINT = `http://localhost:5000`;
+  const ENDPOINT = `https://port-0-chat-be-1272llwyghb5h.sel5.cloudtype.app`;
 
   //메세지가 업데이트될때마다 스크롤을 부드럽게 아래로 내림
   const scrollToBottom = () => {
