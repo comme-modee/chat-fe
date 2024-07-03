@@ -1,0 +1,19 @@
+.messages {
+    height: 100%;
+    overflow-y: auto;
+}
+.messages > div {
+    display: grid;
+}
+.messages > div > .message-container {
+    padding: 10px;
+    width: fit-content;
+}
+.messages > div > .sender {
+    justify-self: end;
+    background-color: yellow;
+}
+.messages > div > .recipient {
+    justify-self: baseline;
+    background-color: #fff;
+}

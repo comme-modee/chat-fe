@@ -1,0 +1,14 @@
+.messages {
+    display: grid;
+}
+.messages > .message-container {
+    padding: 10px;
+}
+.messages > .sender {
+    align-self:flex-end;
+    background-color: yellow;
+}
+.messages > .recipient {
+    align-self: baseline;
+    background-color: #fff;
+}
